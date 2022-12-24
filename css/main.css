@@ -1,0 +1,40 @@
+.main-body{
+    height: 600px;
+    width: 600px;
+    background-color: gainsboro;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.heading{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+.box{
+    height:170px;
+    width: 170px;
+    background-color:aliceblue;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: solid black 1.5px;
+    font-size: 120px;
+    text-align: center;
+    font-family: monospace;
+}
+
