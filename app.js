@@ -59,8 +59,6 @@ const playing = (()=>{
                 let heading = document.querySelector(".heading");
                 heading.innerHTML = `${this.activePlayer.name} has won the game`
                 done = true;
-            }else{
-
             }
         }
 
